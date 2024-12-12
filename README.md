@@ -63,7 +63,7 @@ Para instalar as bibliotecas, use a **Library Manager** no Arduino IDE:
 No arquivo `monitoramento-temperatura-umidade.ino`:
 1. Substitua as seguintes linhas pelas credenciais da sua rede Wi-Fi:
    ```cpp
-   const char* ssid = "SEU_WIFI";
+   const char* ssid = "SUA_REDE_WIFI";
    const char* password = "SUA_SENHA";
 
 ## 3. Acessando o Servidor Web
