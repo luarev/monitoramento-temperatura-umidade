@@ -68,7 +68,7 @@ No arquivo `monitoramento-temperatura-umidade.ino`:
 
 ## 3. Acessando o Servidor Web
 1. Abra o Monitor Serial no Arduino IDE para obter o endereço IP gerado pelo ESP32.
-2. Copie o endereço IP e cole no navegador (ex.: `http://192.168.1.116`).
+2. Copie o endereço IP e cole no navegador.
 3. Você verá uma interface interativa exibindo os valores de temperatura e umidade em tempo real.
 
 --- 
