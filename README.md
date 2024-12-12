@@ -2,8 +2,6 @@
 
 Este projeto utiliza um **ESP32**, um **sensor DHT11** e um **display LCD I2C** para monitorar em tempo real a **temperatura** e a **umidade** de um ambiente. Os dados são exibidos no **display LCD** e também em uma interface **web responsiva**, acessível via Wi-Fi, que atualiza os valores em tempo real.
 
-## Demonstração
-![Demonstração do web server](C:\Users\luana\Pictures\image)
 
 ---
 
@@ -34,7 +32,7 @@ Este projeto utiliza um **ESP32**, um **sensor DHT11** e um **display LCD I2C** 
 ## Circuito
 Aqui está a configuração dos pinos e conexões:
 1. **Sensor DHT11**:
-   - **VCC** → 3.3V do ESP32
+   - **VCC** → VIN do ESP32
    - **GND** → GND do ESP32
    - **DATA** → GPIO15 do ESP32
 2. **Display LCD I2C**:
