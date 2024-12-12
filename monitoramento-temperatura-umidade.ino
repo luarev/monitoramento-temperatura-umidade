@@ -6,8 +6,8 @@
 #include <ESPAsyncWebServer.h>
 #include <AsyncTCP.h>
 
-const char* ssid = "Galaxy_S23";  // Nome da rede Wi-Fi
-const char* password = "luana123159";   // Senha da rede Wi-Fi
+const char* ssid = "SUA_REDE_WIFI";  // Nome da rede Wi-Fi
+const char* password = "SUA_SENHA";   // Senha da rede Wi-Fi
 
 hd44780_I2Cexp lcd;
 
